@@ -1,4 +1,4 @@
-import Evolution from "../Evolution";
+import Evolution from "./Evolution";
 import TypeEffect from "../TypeEffect";
 import Logo from "../Logo";
 const CardInfo = () => {
