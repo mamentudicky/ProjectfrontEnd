@@ -1,15 +1,14 @@
-import Evolution from "./Evolution";
-import TypeEffect from "../TypeEffect";
-import Logo from "../Logo";
-const CardInfo = () => {
+import Evoluation from "./Evoluation";
+import TypeEffect from "./TypeEffect";
+import Logo from "./Logo"
+const CardInfo = ({ text }) => {
   return (
     <div>
-      <h1>card-info</h1>
-      <Evolution />
-      <TypeEffect />
-      <Logo />
+      <h2>{text}</h2>
+      <Evoluation text="Evolution" />
+      <TypeEffect text=" TyeEffect " />
+      <Logo text="Logo" />
     </div>
   );
 };
-
 export default CardInfo;

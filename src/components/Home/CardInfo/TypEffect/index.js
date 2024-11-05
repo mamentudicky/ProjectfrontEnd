@@ -1,4 +1,9 @@
-const TypeEffect = () => {
-  return <h1> Evolution</h1>;
-};
-export default Evolution;
+const TypeEffect = ({ text }) => {
+    return (
+      <div>
+        <h3>{text}</h3>
+      </div>
+    );
+  };
+  
+  export default TypeEffect;

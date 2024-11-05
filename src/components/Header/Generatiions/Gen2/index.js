@@ -1,7 +1,9 @@
-import React from 'react';
-
-const Gen2 = () => {
-  return <h1>Gen2</h1>;
+const Gen2 = ({ text }) => {
+  return (
+      <div>
+          <h3>{text}</h3>
+      </div>
+  );
 };
 
 export default Gen2;

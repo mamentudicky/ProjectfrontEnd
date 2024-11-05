@@ -1,4 +1,8 @@
-const Search = () => {
-    return <h1> Search</h1>
-}
-export default Evolution;
+const Search = ({ text }) => {
+    return (
+      <div>
+        <h2>{text}</h2>
+      </div>
+    );
+  };
+  export default Search;

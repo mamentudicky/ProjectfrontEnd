@@ -1,6 +1,6 @@
 import React from "react";
-import Card from "../CardInfo";
-import Search from "../Search";
+import Card from "./CardInfo";
+import Search from "./Search";
 
 const Home = (props) => {
   return (
