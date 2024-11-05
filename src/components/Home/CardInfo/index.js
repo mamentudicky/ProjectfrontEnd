@@ -1,5 +1,5 @@
-import Evoluation from "./Evoluation";
-import TypeEffect from "./TypeEffect";
+import Evoluation from "./Evolution";
+import TypeEffect from "./TypEffect";
 import Logo from "./Logo"
 const CardInfo = ({ text }) => {
   return (

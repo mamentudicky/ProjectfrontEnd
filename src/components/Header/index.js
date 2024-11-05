@@ -1,8 +1,8 @@
-import Gen1 from "./Gen 1";
-import Gen2 from "./Gen 2";
-import Gen3 from "./Gen 3";
-import Gen4 from "./Gen 4";
-const Generation = ({ text }) => {
+import Gen1 from "./Generations/Gen1";
+import Gen2 from "./Generations/Gen2";
+import Gen3 from "./Generations/Gen3";
+import Gen4 from "./Generations/Gen4";
+const Generations = ({ text }) => {
   return (
     <div>
       <h2>{text}</h2>
@@ -13,4 +13,4 @@ const Generation = ({ text }) => {
     </div>
   );
 };
-export default Generation;
+export default Generations;
