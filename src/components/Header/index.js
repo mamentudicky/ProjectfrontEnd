@@ -1,16 +1,15 @@
-import Gen1 from "./Generations/Gen1";
-import Gen2 from "./Generations/Gen2";
-import Gen3 from "./Generations/Gen3";
-import Gen4 from "./Generations/Gen4";
-const Generations = ({ text }) => {
+import React from "react";
+import Generations from "./Generations";
+import Logo from "../Home/CardInfo/Logo";
+
+const Header = (props) => {
   return (
     <div>
-      <h2>{text}</h2>
-      <Gen1 text="Gen1" />
-      <Gen2 text="Gen2" />
-      <Gen3 text="Gen3" />
-      <Gen4 text="Gen4" />
+      <h1>{props.title}</h1>
+      <Generations />
+      <Logo />
     </div>
   );
 };
-export default Generations;
+
+export default Header;
